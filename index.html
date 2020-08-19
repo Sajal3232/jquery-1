@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+     <div class="container">
+        <div class="calculator col-lg-6 m-auto ">
+            <div class="calculator-item text-center ">
+                <h2>calculator</h2>
+                <div class="calculator-dispaly">
+                    <input type="text" id="result" maxlength="10">
+                </div>
+                <div class="calculator-body">
+                    <div class="button-group">
+                        <input type="button" class="btn btn-secondary my-btn" value="C" onclick="clearResult()">
+                        <input type="button" class="btn btn-secondary my-btn" value="+/-">
+                        <input type="button" class="btn btn-secondary my-btn" value="*" onclick="inseartNumber('*')">
+                        <input type="button" class="btn btn-secondary my-btn" value="/" onclick="inseartNumber('/')">
+                    </div>
+                    <div class="button-group">
+                        <input type="button" class="btn btn-secondary my-btn" value="9" onclick="inseartNumber(9)">
+                        <input type="button" class="btn btn-secondary my-btn" value="8" onclick="inseartNumber(8)">
+                        <input type="button" class="btn btn-secondary my-btn" value="7" onclick="inseartNumber(7)">
+                        <input type="button" class="btn btn-secondary my-btn" value="%" >
+                    </div>
+                    <div class="button-group">
+                        <input type="button" class="btn btn-secondary my-btn" value="6" onclick="inseartNumber(6)">
+                        <input type="button" class="btn btn-secondary my-btn" value="5" onclick="inseartNumber(5)">
+                        <input type="button" class="btn btn-secondary my-btn" value="4" onclick="inseartNumber(4)">
+                        <input type="button" class="btn btn-secondary my-btn" value="+" onclick="inseartNumber('+')">
+                    </div>
+                    <div class="button-group">
+                        <input type="button" class="btn btn-secondary my-btn" value="3" onclick="inseartNumber(3)">
+                        <input type="button" class="btn btn-secondary my-btn" value="2" onclick="inseartNumber(2)">
+                        <input type="button" class="btn btn-secondary my-btn" value="1" onclick="inseartNumber(1)">
+                        <input type="button" class="btn btn-secondary my-btn" value="-" onclick="inseartNumber('-')">
+                    </div>
+                    <div class="button-group">
+                        <input type="button" class="btn btn-secondary my-btn" value="0" onclick="inseartNumber(0)">
+                        <input type="button" class="btn btn-secondary my-btn" value=".">
+                        <input type="button" class="btn btn-secondary my-btn" value="DEL" onclick="deleteField()">
+                        <input type="button" class="btn btn-secondary my-btn" value="=" onclick="equalNumbers()">
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="my-script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+
+.my-btn {
+    height: 40px;
+    width: 50px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+#result {
+    width: 213px;
+    height: 59px;
+    overflow: hidden;
+    text-align: right;
+}
